@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chit-Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Chit-Chat</h1>
+    <br>
+    <h2>A Real Time Chat Webapp</h2>
+    <div class="contents">
+
+
+    <input type="text" id="username" placeholder="Your Name"/>
+    <button type="submit" id="change_username" class="btn btn-primary">Change Username</button>
+
+    <div id="feedback"></div>
+    <br>
+
+    <input type="text" id="message" placeholder="Message"/>
+    <button type="submit" id="change_message" class="btn btn-primary">Send Message</button>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="chat.js"></script>
+</html>

@@ -1,0 +1,18 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e7dfd5;
+}
+h1{
+  color: #222831;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  color: #303960;
+}
+
+.contents{
+  margin-top: 10%;
+  text-align: center;
+}
