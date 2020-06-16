@@ -8,5 +8,5 @@ A real time chat app made using Node.js, Express and Socket.io.
 ```
 2. Go to localhost:3000 on your browser
 ```
-![chit-chat](https://user-images.githubusercontent.com/53931942/84787821-0fd5fe00-b00c-11ea-8fbe-819cdc9dd6a7.jpg)
+![localhost](https://user-images.githubusercontent.com/53931942/84787944-3005bd00-b00c-11ea-8680-04d1e72a8d64.jpg)
 
